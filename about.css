@@ -19,3 +19,132 @@ header{
     backdrop-filter: blur(10px);
     box-shadow:0 0 20px rgba(255,255,255,0.2);
 }
+
+@media only screen and (max-width: 760px) and (min-width: 328px) {
+    .about-navbar a{
+        font-size:14px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .about{
+        display:flex;
+    }
+    .about-navbar{
+        margin-right:4px;
+    }
+    .about-text h2{
+        font-size: 30px;
+        margin-top: 8rem;
+    }
+    .about-text h4 {
+        font-size: 18px;
+        line-height: 1.1;
+        margin: 15px 0 17px;
+    }
+    .about-text p{
+        font-size: 12px;
+        line-height: 1.1;
+        margin-bottom: 1rem;
+    }
+    .location{
+        font-size: 14px;
+        border-radius: 3px;
+    }
+    .about-text h4{
+        margin:10px 0 8px;
+    }
+    .image{
+        height: 42%;
+        width:100%;
+    }
+    .image-container img {
+        height: 29%;
+    }
+    .heading{
+        margin-top: 5rem;
+    }
+    .sub-title {
+        font-size: 18px;
+    }
+    .container{
+        margin:2rem;
+    }
+    .skills .row1 {
+        margin: 0;
+    }
+    .skills .item-text {
+        font-size: 0.6rem;
+    }
+    .progress {
+        border-radius: 5px;
+        height: 10px;
+    }
+    .item img {
+        height: 50px;
+    }
+    .main-text h2{
+        font-size:30px;
+    }
+    .main-text {
+        padding-top: 8px;
+        margin: 45px;
+    }
+    .portfolio-content{
+        grid-gap:2rem;
+    }
+    .row img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .layer h5 {
+        font-size: 12px;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+    .layer i {
+        margin-top:15px;
+        font-size: 15px;
+        width: 35px;
+        height: 35px;
+    }
+    .contact-text h2 {
+        font-size: 30px;
+    }
+    .contact-text h4 {
+        margin: 15px 0;
+        font-size: 18px;
+    }
+    .contact-list i{
+        font-size:13px;
+    }
+    .contact {
+        display: flex;
+        padding: 0;
+        margin-top: 80px;
+    }
+    .contact-icons i{
+        width: 22px;
+        height: 22px;
+        font-size: 15px;
+        margin: 15px 8px 15px 0;
+    }
+    .contact-form form input, form textarea {
+        width: 70%;
+        padding: 3px;
+        font-size: 0.8rem;
+    }
+    .contact-form textarea {
+        resize: none;
+        height: 91px;
+    }
+    .contact-form form .send {
+        padding: 6px 16px;
+        border-radius: 20px;
+        font-size: 18px;
+        color: #081629;
+        letter-spacing: 0.5px;
+    }
+    .last-text {
+        position: fixed;
+    }
+}

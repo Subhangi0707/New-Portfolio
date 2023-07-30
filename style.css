@@ -293,7 +293,7 @@ header{
     opacity:0;
     animation:slideRight 1s ease forwards;
     animation-delay: .6s;
-    box-shadow: 0 0 20px #e478ff;
+    box-shadow: 0 0 10px #e478ff;
 }
 .progress-bar{
     background: #f53dff;
@@ -308,37 +308,37 @@ header{
     width:90%;
     opacity:0;
     animation:slideRight 1s ease forwards;
-    animation-delay: .6s;
+    animation-delay: .8s;
 }
 .progress-bar.w-80{
     width:80%;
     opacity:0;
     animation:slideRight 1s ease forwards;
-    animation-delay: .6s;
+    animation-delay: .9s;
 }
 .progress-bar.w-70{
     width:70%;
     opacity:0;
     animation:slideRight 1s ease forwards;
-    animation-delay: .6s;
+    animation-delay: .9s;
 }
 .progress-bar.w-50{
     width:50%;
     opacity:0;
     animation:slideRight 1s ease forwards;
-    animation-delay: .6s;
+    animation-delay: .9s;
 }
 .progress-bar.w-75{
     width:75%;
     opacity:0;
     animation:slideRight 1s ease forwards;
-    animation-delay: .6s;
+    animation-delay: .9s;
 }
 .progress-bar.w-70{
     width:70%;
     opacity:0;
     animation:slideRight 1s ease forwards;
-    animation-delay: .6s;
+    animation-delay: .9s;
 }
 
 .main-text{
@@ -357,7 +357,7 @@ header{
     grid-gap:3rem;
 }
 .row{
-    position: relative;🤍
+    position: relative;
     overflow: hidden;
     border-radius:20px;
     cursor:pointer;
@@ -563,4 +563,46 @@ h5 .one{
         transform: translate(0px);
         opacity:1;
     }
+}
+
+@media only screen and (max-width: 760px) and (min-width: 328px) {
+    .navbar a{
+        font-size:14px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .logo {
+        font-size: 15px;
+    }
+    .home-content h3 {
+        font-size: 18px;
+    }
+    .home-content h1 {
+        font-size: 30px;
+    }
+    .home-content h3:nth-of-type(2) {
+        margin-bottom: 0px;
+    }
+    .home-sci a{
+        width:22px;
+        height: 22px;
+        font-size: 12px;
+        margin: 20px 5px 20px 2px;
+    }
+    .btn-box {
+        padding: 8px 18px;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+    .image-container img {
+        height: 25%;
+    }
+    .image {
+        height: 35%;
+        width: 100%;
+    }
+    .navbar{
+        margin-right:4px;
+    }
+    
 }
