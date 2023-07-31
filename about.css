@@ -28,23 +28,27 @@ header{
     }
     .about{
         display:flex;
+        flex-direction: column;
     }
     .about-navbar{
         margin-right:4px;
     }
     .about-text h2{
         font-size: 30px;
-        margin-top: 8rem;
+        margin-top: -6rem;
+        margin-left: 1rem;
     }
     .about-text h4 {
         font-size: 18px;
         line-height: 1.1;
         margin: 15px 0 17px;
+        margin-left: 1rem;
     }
     .about-text p{
         font-size: 12px;
         line-height: 1.1;
         margin-bottom: 1rem;
+        margin-left: 1rem;
     }
     .location{
         font-size: 14px;
@@ -52,10 +56,15 @@ header{
     }
     .about-text h4{
         margin:10px 0 8px;
+        margin-left: 1rem;
     }
     .image{
         height: 42%;
         width:100%;
+    }
+    .image-container {
+        width: 207px;
+        height: 446px;
     }
     .image-container img {
         height: 29%;
@@ -109,18 +118,33 @@ header{
     }
     .contact-text h2 {
         font-size: 30px;
+        display: flex;
+        justify-content: center;
     }
     .contact-text h4 {
         margin: 15px 0;
-        font-size: 18px;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
     }
     .contact-list i{
         font-size:13px;
     }
-    .contact {
+    .contact-list li {
         display: flex;
+        justify-content: flex-start;
+        margin-left:5.5rem;
+    }
+    .contact {
+        display: list-item;
         padding: 0;
         margin-top: 80px;
+    }
+    .contact-icons{
+        margin-left:9rem;
+    }
+    .contact-list{
+        margin:1rem;
     }
     .contact-icons i{
         width: 22px;
@@ -129,9 +153,10 @@ header{
         margin: 15px 8px 15px 0;
     }
     .contact-form form input, form textarea {
-        width: 70%;
-        padding: 3px;
+        width: 84%;
+        padding: 7px;
         font-size: 0.8rem;
+        margin-left: 31px;
     }
     .contact-form textarea {
         resize: none;
@@ -145,6 +170,6 @@ header{
         letter-spacing: 0.5px;
     }
     .last-text {
-        position: fixed;
+        position: relative;
     }
 }
